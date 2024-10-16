@@ -1,0 +1,33 @@
+.card {
+  background-color: rgb(238, 238, 236);
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+}
+.inputTab {
+  padding: 15px;
+}
+.nameChips {
+  display: inline-flex;
+  gap: 2px;
+  background-color: rgb(198, 198, 198);
+  border-radius: 6px;
+  padding: 4px;
+  margin: 10px;
+}
+.inputLine {
+  content: '';
+  border: 1px solid tomato;
+}
+input {
+  /* width: 100%; */
+  /* background-color: antiquewhite; */
+  /* color: antiquewhite; */
+  /* background-color: transparent;
+    border: none;
+    padding: 20px; */
+  /* margin: 15px;
+    height: 30px; */
+  /* border-bottom: 1px solid blue; */
+  all: unset;
+}

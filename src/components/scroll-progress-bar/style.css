@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.outside-container {
+  /* width: 100vw; */
+  /* position: relative; */
+}
+.header-container {
+  text-align: center;
+  padding-top: 14px;
+  background-color: chocolate;
+  position: fixed;
+  width: 100%;
+}
+.progress-bar-container {
+  background-color: rgb(134, 134, 134);
+}
+.progress-bar {
+  margin-top: 10px;
+  content: '';
+  background-color: rgb(195, 255, 0);
+  height: 10px;
+}
+.scroll-container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid tomato;
+}
+
+.scroll-container p {
+  padding-bottom: 22px;
+}

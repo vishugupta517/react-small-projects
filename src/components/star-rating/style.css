@@ -1,0 +1,16 @@
+div .stars {
+  display: flex;
+  font-size: 40px;
+}
+
+.stars > span {
+  cursor: pointer;
+}
+
+.selected {
+  color: rgb(227, 169, 20);
+}
+
+/* .stars > span {
+  color: rgb(227, 169, 20);
+} */

@@ -1,0 +1,37 @@
+.section {
+  margin: 20px 0;
+}
+
+.seat-grid {
+  display: grid;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s;
+}
+
+.seat.booked {
+  background-color: lightcoral;
+  cursor: not-allowed;
+}
+
+.confirm-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
